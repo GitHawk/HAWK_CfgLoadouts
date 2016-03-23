@@ -34,7 +34,7 @@ class MIO : COLO {
         B_EasyTrackLAPTOP
     };
     class Items : Items {
-        other[] = {"B_UavTerminal"};
+        other[] = {"B_UavTerminal", "ace_UAVBattery"};
     };
 };
 

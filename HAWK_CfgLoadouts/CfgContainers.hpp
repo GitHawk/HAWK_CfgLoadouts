@@ -198,6 +198,9 @@ vest_pool[] = {"V_RebreatherIR"};
 vest_pool[] = {"V_RebreatherIA"};
 
 // Backpacks
+#define No_Backpack \
+backpack_pool[] = {};
+
 #define Small_Backpack \
 backpack_pool[] = {"B_AssaultPack_blk"};
 

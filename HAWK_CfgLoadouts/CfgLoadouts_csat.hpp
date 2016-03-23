@@ -34,7 +34,7 @@ class MIO : COLO {
         O_EasyTrackLAPTOP
     };
     class Items : Items {
-        other[] = {"O_UavTerminal"};
+        other[] = {"O_UavTerminal", "ace_UAVBattery"};
     };
 };
 
@@ -515,7 +515,7 @@ class LOGISTICS : SoldierClass {
     };
    class Items : SmallMedicMaterial {
          other[] = {
-             "I_UavTerminal",
+             "O_UavTerminal",
              "ToolKit"
          };
     };
